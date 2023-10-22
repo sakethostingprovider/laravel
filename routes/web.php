@@ -47,4 +47,8 @@ require __DIR__.'/auth.php';
 Route::get('/hello/firstproject/{id}', function (string $id = null){
     return "<h1>".{$id}."</h1>";
 });
+Route::get('/hello/firstproject/{id}', function (string $id = null){
+    return "<h1>".{$id}."</h1>";
+});
+
 
